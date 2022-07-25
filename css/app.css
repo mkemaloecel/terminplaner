@@ -1,0 +1,49 @@
+.grid-container {
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    background-color: rgb(200, 182, 159);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-container-jahr {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    background-color: bisque;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-tag-mit-termin {
+    background-color: aqua;
+}
+
+.grid-tag {
+    background-color: rgb(235, 210, 178);
+}
+
+.grid-tag-fill {
+    background-color: rgb(30, 255, 0);
+    text-align: center;
+}
+
+.grid-tag-ueberschrift {
+    background-color: #0099ff;
+    color:white;
+    text-align: center;
+}
+.grid-tag-vorher {
+    background-color: rgb(250, 233, 200);
+    text-align: center;
+    color:#310000;
+}
+
+.grid-tag-nachher {
+    background-color:  rgb(250, 233, 200);
+    text-align: center;
+    color:#310000;
+}
+.wochenende{
+    color:#d80e0e;
+    text-align: center;
+}
